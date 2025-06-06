@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "CallCenterAPI.Controllers.DeliveryController",
+    "Method": "GetDeliveryOptions",
+    "RelativePath": "api/Delivery/get-delivery-options",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "products",
+        "Type": "System.Collections.Generic.List\u00601[[CallCenterAPI.DTO_s.ProductDto, CallCenterAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
