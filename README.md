@@ -80,14 +80,14 @@ npm run dev
 
 ---
 
-## 🌐 Deployment (optional)
 
-> After deploying with Vercel or Render, update these:
 
-- 🔗 **Frontend:** https://delivery-app.vercel.app  
-- 🔗 **Backend:** https://delivery-api.onrender.com
+After running the backend, look for the terminal output:
+> Now listening on: http://localhost:5225
 
----
+Copy that port to your `.env` file like:
+
+VITE_API_BASE_URL=http://localhost:5225/api
 
 ## 🧑‍💻 Author
 
