@@ -44,6 +44,14 @@ dotnet run
 
 ---
 
+
+After running the backend, look for the terminal output:
+> Now listening on: http://localhost:5225
+
+Copy that port to your `.env` file like:
+
+VITE_API_BASE_URL=http://localhost:5225/api
+
 ### 3. Run the Frontend (React)
 
 ```bash
@@ -82,12 +90,7 @@ npm run dev
 
 
 
-After running the backend, look for the terminal output:
-> Now listening on: http://localhost:5225
 
-Copy that port to your `.env` file like:
-
-VITE_API_BASE_URL=http://localhost:5225/api
 
 ## 🧑‍💻 Author
 
