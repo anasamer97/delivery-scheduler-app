@@ -78,9 +78,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-> (Add a screenshot to `docs/demo.png` if you'd like)
 
 ```
 📅 Product selection -> Delivery date options -> Time slot view
@@ -88,16 +85,3 @@ npm run dev
 
 ---
 
-
-
-
-
-## 🧑‍💻 Author
-
-Built with 💻 by [Anas Amer](https://github.com/anasamer97)
-
----
-
-## 📜 License
-
-This project is open-source under the MIT License.
