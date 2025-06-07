@@ -16,7 +16,7 @@ This is a fullstack project that allows users to schedule delivery slots based o
 ```
 delivery-scheduler-app/
 ├── frontend/       # React frontend
-└── backend/        # .NET backend (CallCenterAPI)
+└── backend/        # .NET backend (DeliveryApi)
 ```
 
 ---
@@ -35,7 +35,7 @@ cd delivery-scheduler-app
 ### 2. Run the Backend (.NET)
 
 ```bash
-cd backend/CallCenterAPI
+cd backend/DeliveryApi
 dotnet restore
 dotnet run
 ```
