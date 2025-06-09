@@ -16,7 +16,7 @@ This is a fullstack project that allows users to schedule delivery slots based o
 ```
 delivery-scheduler-app/
 ├── frontend/       # React frontend
-└── backend/        # .NET backend (CallCenterAPI)
+└── backend/        # .NET backend (DeliveryApi)
 ```
 
 ---
@@ -35,12 +35,17 @@ cd delivery-scheduler-app
 ### 2. Run the Backend (.NET)
 
 ```bash
-cd backend/CallCenterAPI
+cd backend/DeliveryApi
 dotnet restore
 dotnet run
 ```
 
-📍 API runs at: `https://localhost:5001`
+You should see something like:
+```
+Now listening on: https://localhost:7023
+```
+
+Keep note of this port — you'll use it in the frontend `.env`.
 
 ---
 
@@ -48,6 +53,13 @@ dotnet run
 
 ```bash
 cd ../../frontend
+cp .env.example .env
+
+Edit the .env file and match the port from the backend output: VITE_API_BASE_URL=https://localhost:7023/api/delivery <--  Copy the port number from the backend and paste it here
+```env
+VITE_API_BASE_URL=https://localhost:7023/api/delivery
+```
+
 npm install
 npm run dev
 ```
@@ -70,9 +82,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-> (Add a screenshot to `docs/demo.png` if you'd like)
 
 ```
 📅 Product selection -> Delivery date options -> Time slot view
@@ -80,21 +89,3 @@ npm run dev
 
 ---
 
-## 🌐 Deployment (optional)
-
-> After deploying with Vercel or Render, update these:
-
-- 🔗 **Frontend:** https://delivery-app.vercel.app  
-- 🔗 **Backend:** https://delivery-api.onrender.com
-
----
-
-## 🧑‍💻 Author
-
-Built with 💻 by [Anas Amer](https://github.com/anasamer97)
-
----
-
-## 📜 License
-
-This project is open-source under the MIT License.
