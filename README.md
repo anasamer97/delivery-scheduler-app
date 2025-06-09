@@ -40,7 +40,12 @@ dotnet restore
 dotnet run
 ```
 
-📍 API runs at: `https://localhost:5001`
+You should see something like:
+```
+Now listening on: https://localhost:7023
+```
+
+Keep note of this port — you'll use it in the frontend `.env`.
 
 ---
 
@@ -48,6 +53,13 @@ dotnet run
 
 ```bash
 cd ../../frontend
+cp .env.example .env
+
+Edit the .env file and match the port from the backend output: VITE_API_BASE_URL=https://localhost:7023/api/delivery <--  Copy the port number from the backend and paste it here
+```env
+VITE_API_BASE_URL=https://localhost:7023/api/delivery
+```
+
 npm install
 npm run dev
 ```
