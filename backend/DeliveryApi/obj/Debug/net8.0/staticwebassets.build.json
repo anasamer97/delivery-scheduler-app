@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "4LMoERvrKbDuDcnO6QsThpYgfC1ICFvHHKw6HEHguXY=",
-  "Source": "CallCenterAPI",
-  "BasePath": "_content/CallCenterAPI",
+  "Hash": "RK3HcHAxCBHjNV8VjkaBl7zXazP34TOj7EjlS6/VcJU=",
+  "Source": "DeliveryApi",
+  "BasePath": "_content/DeliveryApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

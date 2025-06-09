@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.36105.23 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCenterAPI", "CallCenterAPI\CallCenterAPI.csproj", "{EAF1E929-E416-4153-AB07-0166F18AC662}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryApi", "DeliveryApi\DeliveryApi.csproj", "{EAF1E929-E416-4153-AB07-0166F18AC662}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

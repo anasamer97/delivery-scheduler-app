@@ -17,11 +17,7 @@ namespace CallCenterAPI
 	        options.UseSqlServer("Server=.;Database=CallCenterAPI;Trusted_Connection=True;TrustServerCertificate=true"));
             
 
-			// Add services to the container.
-			
-
-           
-
+			// Add services to the container
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

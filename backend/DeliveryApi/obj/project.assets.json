@@ -5164,11 +5164,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anasa\\source\\repos\\CallCenterAPI\\CallCenterAPI\\CallCenterAPI.csproj",
-      "projectName": "CallCenterAPI",
-      "projectPath": "C:\\Users\\anasa\\source\\repos\\CallCenterAPI\\CallCenterAPI\\CallCenterAPI.csproj",
+      "projectUniqueName": "C:\\Users\\anasa\\web_development\\delievery-scheduler\\delivery-scheduler-app\\backend\\DeliveryApi\\DeliveryApi.csproj",
+      "projectName": "DeliveryApi",
+      "projectPath": "C:\\Users\\anasa\\web_development\\delievery-scheduler\\delivery-scheduler-app\\backend\\DeliveryApi\\DeliveryApi.csproj",
       "packagesPath": "C:\\Users\\anasa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anasa\\source\\repos\\CallCenterAPI\\CallCenterAPI\\obj\\",
+      "outputPath": "C:\\Users\\anasa\\web_development\\delievery-scheduler\\delivery-scheduler-app\\backend\\DeliveryApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
